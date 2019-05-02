@@ -16,6 +16,14 @@ apt install -y python3-pip
 pip3 install jinja2 ruamel.yaml unidecode
 
 #
+# Add french locales
+#
+export LC_ALL="fr_FR.UTF-8"
+export LC_CTYPE="fr_FR.UTF-8"
+apt install -y language-pack-fr
+dpkg-reconfigure locales
+
+#
 # Cleaning the cache to limit the size of the image
 #
 apt clean
