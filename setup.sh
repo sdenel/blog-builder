@@ -15,6 +15,9 @@ dpkg -i pandoc-2.7.2-1-amd64.deb
 apt install -y python3-pip
 pip3 install jinja2 ruamel.yaml unidecode
 
+# Miscellaenous tools
+apt install -y git
+
 #
 # Add french locales
 #
