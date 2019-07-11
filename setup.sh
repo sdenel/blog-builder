@@ -13,7 +13,7 @@ dpkg -i pandoc-2.7.2-1-amd64.deb
 # Python tools: Jinja2 + ruamel.yaml
 #
 apt install -y python3-pip
-pip3 install jinja2 ruamel.yaml unidecode
+pip3 install jinja2 ruamel.yaml unidecode urlparse
 
 # Miscellaenous tools
 apt install -y git
